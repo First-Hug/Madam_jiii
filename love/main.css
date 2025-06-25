@@ -71,7 +71,7 @@
     animation: fadein ease 15s;
 
      /* Glow effect */
-    text-shadow: 0 0 5px red, 0 0 10px red, 0 0 20px red, 0 0 40px rgb(221, 247, 93);
+    text-shadow: 0 0 5px rgb(4, 14, 43), 0 0 10px red, 0 0 20px red, 0 0 40px rgb(22, 32, 62);
   }
 
   @keyframes fadein {
