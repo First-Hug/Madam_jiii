@@ -135,7 +135,7 @@ document.onmousewheel = function(e) {
 
 
 
-var canvas = document.getElementById("canvas");
+/*var canvas = document.getElementById("canvas");
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -305,7 +305,7 @@ void main(){
 	//Output to screen
  	gl_FragColor = vec4(col,1.0);
 }
-`;
+`;*/
 
 //************** Utility functions **************
 
