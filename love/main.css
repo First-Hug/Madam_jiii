@@ -171,7 +171,7 @@ p {
     font-size: 12vw;
     text-align: center;
 }
-
+}
 
 #ReplyBtn {
   position: fixed;
@@ -183,7 +183,7 @@ p {
   pointer-events: none;
   animation: none;
 }
-}
+
 
 #ReplyBtn a {
   display: inline-flex;
