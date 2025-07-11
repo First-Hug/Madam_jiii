@@ -183,6 +183,7 @@ p {
   pointer-events: none;
   animation: none;
 }
+}
 
 #ReplyBtn a {
   display: inline-flex;
