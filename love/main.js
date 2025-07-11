@@ -415,3 +415,10 @@ function draw(){
 }
 
 draw();
+
+setTimeout(() => {
+  const replyBtn = document.getElementById("ReplyBtn");
+  replyBtn.style.pointerEvents = "auto";
+  replyBtn.style.opacity = "1";
+  replyBtn.style.animation = "shootIn 2s ease forwards";
+}, 4000);
