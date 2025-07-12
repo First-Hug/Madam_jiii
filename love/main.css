@@ -188,7 +188,7 @@ p {
 #ReplyBtn a {
   display: inline-flex;
   align-items: center;
-  padding: 8px 9px;
+  padding: 3px 4px;
   font-size: 10px;
   font-weight: 800;
   color: white;
@@ -226,17 +226,17 @@ p {
 }
 
 .twinkle-emoji {
-  animation: twinkleEmoji 1s infinite alternate ease-in-out;
+  animation: twinkleEmoji 1.2s infinite alternate ease-in-out;
   display: inline-block;
 }
 
 @keyframes twinkleEmoji {
-  0% {
+  50% {
     transform: scale(1);
-    filter: drop-shadow(0 0 2px #fff);
+    filter: drop-shadow(0 0 2px #ec0606);
   }
   100% {
     transform: scale(1.1);
-    filter: drop-shadow(0 0 8px #ffb6c1);
+    filter: drop-shadow(0 0 8px #e8ea40);
   }
 }
