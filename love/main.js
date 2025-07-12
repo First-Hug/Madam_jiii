@@ -121,7 +121,7 @@ setTimeout(() => {
   replyBtn.style.pointerEvents = "auto";
   replyBtn.style.opacity = "1";
   replyBtn.style.animation = "shootIn 2s ease forwards";
-}, 4000);
+}, 73000);
 
 
 
