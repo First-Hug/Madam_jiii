@@ -175,7 +175,7 @@ p {
 
 #ReplyBtn {
   position: fixed;
-  top: 45px;
+  top: 73px;
   left: 50%;
   transform: translateX(-50%) scale(0.1);
   opacity: 0;
@@ -188,17 +188,17 @@ p {
 #ReplyBtn a {
   display: inline-flex;
   align-items: center;
-  padding: 7px 9px;
-  font-size: 12px;
-  font-weight: 600;
+  padding: 8px 9px;
+  font-size: 10px;
+  font-weight: 800;
   color: white;
   text-decoration: none;
   border-radius: 30px;
   background: transparent;
-  border: 2px solid white;
+  border: none;
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.6), 0 0 15px rgba(158, 159, 158, 0.7);
   font-family: 'Poppins', sans-serif;
-  animation: twinkle 1s infinite alternate ease-in-out;
+  animation: twinkle 0s infinite alternate ease-in-out;
 }
 
 @keyframes twinkle {
@@ -211,8 +211,8 @@ p {
 }
 
 @keyframes shootIn {
-  0% {
-    transform: translate(-300%, 100%) scale(0.3) rotate(45deg);
+  30% {
+    transform: translate(-300%, 100%) scale(1.1) rotate(180deg);
     opacity: 0;
   }
   60% {
@@ -220,7 +220,23 @@ p {
     opacity: 1;
   }
   100% {
-    transform: translateX(-50%) scale(1);
+    transform: translateX(-50%) scale(3);
     opacity: 1;
+  }
+}
+
+.twinkle-emoji {
+  animation: twinkleEmoji 1s infinite alternate ease-in-out;
+  display: inline-block;
+}
+
+@keyframes twinkleEmoji {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 2px #fff);
+  }
+  100% {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 8px #ffb6c1);
   }
 }
