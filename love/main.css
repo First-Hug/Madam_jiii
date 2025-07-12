@@ -188,7 +188,7 @@ p {
 #ReplyBtn a {
   display: inline-flex;
   align-items: center;
-  padding: 4px 4px;
+  padding: 3px 3.5px;
   font-size: 10px;
   font-weight: 800;
   color: white;
